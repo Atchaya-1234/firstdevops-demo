@@ -1,5 +1,5 @@
 [project]
-name='firstdevops_demo'
+name='firstdevopsdemo'
 version = "0.1.0"
 description = ""
 authors = [
@@ -10,8 +10,8 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{include = "firstdevops_demo"}]
+packages = [{include = "firstdevopsdemo"}]
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.13.0"]
+requires = ["poetry-core>=2.0.0,<=3.13.0"]
 build-backend = "poetry.core.masonry.api"
